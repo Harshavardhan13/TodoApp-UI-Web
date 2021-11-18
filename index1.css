@@ -1,0 +1,326 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container{
+
+    width: 55%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.upper-container1{
+    width: 35%;
+    height: 100%;
+    padding: 20px;
+}
+
+#tasks{
+    font-weight: bold;
+    font-size: 2.5rem;
+
+}
+
+#lists{
+
+    font-size: 2.5rem;
+    margin-left: 2px;
+    opacity: 0.5;
+
+}
+
+.upper-container2{
+    width: 38%;
+    height: 100%; 
+    padding: 25px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#addlist{
+    font-size: 1.9rem;
+    width: 80%;
+    height: 100%; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.5;
+    padding-top: 25px;
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    
+    
+} 
+
+
+.card1{
+
+    margin-top: 10px;
+    margin-left: 200px;
+    border: 1.5px solid red;
+    width: 28vh;
+    height: 15%;
+    padding-top: 20% ;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey ;
+    
+}
+
+
+.card2{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1.5px solid red;
+    width: 28vh;
+    height: 15%;
+    padding-top: 20% ;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey ;
+    
+    }
+
+
+.card3{
+
+    margin-top: 10px;
+    margin-right: 300px;
+    border: 1.5px solid red;
+    width: 28vh;
+    height: 15%;
+    padding-top: 20% ;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey ;
+    
+    }
+
+.text1{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 23px;
+    width: 85%;
+    height: 15%;
+    text-align: left;
+    border-bottom: 1px solid rgb(168, 162, 162);
+    color: #FF5C58;
+
+}
+
+.text2{
+    width: 94%;
+    height: 10%;
+    font-size: 19px;
+    color: red;
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration:line-through;
+    text-decoration-thickness: 2.7px;
+    
+    
+}
+
+
+.text3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 10px;
+    
+}
+
+#checkbox{
+    width: 15px;
+    height: 15px;
+
+}
+
+
+.text4{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 23px;
+    width: 85%;
+    height: 15%;
+    text-align: left;
+    border-bottom: 1px solid rgb(168, 162, 162);
+    color: #FF5C58;
+
+}
+
+
+
+
+.middle-container1{
+text-align: center;
+font-weight: bold;
+font-size: 3.0rem;
+width: 85%;
+height: 25%;
+position: absolute;
+left: 100px;
+
+
+}
+
+.middle-container2{
+
+    
+    width: 38%;
+    height: 100%; 
+    padding: 30px;
+    position: absolute;
+    right: 260px;
+    padding-top: 90px;
+    
+   }
+
+
+#paris-text::before , #paris-text::after{
+
+    content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+    text-decoration: line-through;
+    margin:auto 0.5em;
+    
+   
+}
+
+
+#back{
+    
+    opacity: 1px;
+    font-size: 1.5rem;
+    color: gray;
+    width: 80%;
+    height: 25px;
+    position: relative;
+    left: 8px;
+    
+    
+    }
+
+
+.middle-card{
+
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 110px;
+    
+    
+    
+}
+
+
+#circle2{
+
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+
+.third-container{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.popup{
+
+    position: relative;
+    bottom: 250px;
+    right: 50px;
+    padding-top: 20px;
+    margin: auto;
+    height: 25vh;
+    width:25% ;
+    border-radius:10px ;
+    border: 1.5px solid red;
+    color: red;
+    font-size: 20px;
+    box-shadow: 3px 3px 10px grey;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#add-new{
+    opacity: 0.8;
+    font-size: 17px;
+}
+
+.popup-bar{
+    margin-top: 20px;
+    border-radius: 4px;
+    width: 80%;
+    height: 25%;
+    border: 1.5px solid red;
+    box-shadow: 1px 1px 3px grey;
+}
+
+.popup-button{
+
+    margin-top: 10px;
+    width: 25%;
+    height: 20%;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border: 0px;
+
+}
+
+
+
+.bottom-container{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+
+.popup2{
+
+    position: relative;
+    bottom: 250px;
+    padding-top: 20px;
+    margin: auto;
+    height: 25vh;
+    width:25% ;
+    border-radius:10px ;
+    border: 1.5px solid red;
+    color: red;
+    font-size: 20px;
+    box-shadow: 3px 3px 10px grey;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
