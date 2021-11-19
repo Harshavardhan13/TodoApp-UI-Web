@@ -169,6 +169,12 @@
 
 
 
+.middle-container{
+    padding-top: 80px;
+}
+
+
+
 
 .middle-container1{
 text-align: center;
@@ -178,6 +184,7 @@ width: 85%;
 height: 25%;
 position: absolute;
 left: 100px;
+
 
 
 }
@@ -316,6 +323,12 @@ left: 100px;
     background-color: white;
     text-align: center;
     padding: 20px;
+}
+
+
+.slide{
+    text-align: center;
+    padding-top: 10px;
 }
 
 
